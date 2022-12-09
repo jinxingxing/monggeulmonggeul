@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservation</title>
+    <link rel="stylesheet" href="./reservation.css">
+    <link href="https://webfontworld.github.io/SCoreDream/SCoreDream.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./mgmg_img/icon2.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_inner clearfix">
+            <div class="logo2">
+                <img src="./mgmg_img/logo2.png" alt="가로로고">
+            </div>
+            <ul class="prlg clearfix">
+                <li><a href="#">PROLOGUE</a></li>
+                <li><a href="#">ROOMS</a></li>
+                <li><a href="#">RESERVATION</a></li>
+                <li><a href="#">SHOP</a></li>
+            </ul>
+            <ul class="login clearfix">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">마이페이지</a></li>
+            </ul>
+        </div>
+        <!--header_inner-->
+        <div id="reservation1">
+            <p><img src="./reservation/R-icon1.png" alt="달력" class="rimg1"></p>
+            <div class="l_box">
+                <p><span> CHECK - IN</span><input type="date" name="" id=""></p>
+                <p><span>CHECK - OUT</span><input type="date" name="" id=""></p>
+            </div>
+            <div class="r_box">
+                <p>PM 16 : 00</p>
+                <p>AM 10 : 00</p>
+            </div>
+
+            <!--l_box-->
+        </div>
+        <!--reservation1-->
+        <div id="reservation2">
+            <p><img src="./reservation/R-icon2.png" alt="베개" class="rimg2"></p>
+            <ul>
+                <li class="r_padding"><label for="roomname1"><img src="./reservation/r-room1.png" alt="룸1"></label>
+                    <p><input type="radio" name="room" id="roomname1" checked> <label for="roomname1"> yuja</label></p>
+                </li>
+                <li class="r_padding"><label for="roomname2"><img src="./reservation/r-room2.png" alt="룸2"></label>
+                    <p><input type="radio" name="room" id="roomname2"><label for="roomname2">tomato</label> </p>
+                </li>
+                <li class="r_padding"><label for="roomname3"><img src="./reservation/r-room3.png" alt="룸3"></label>
+                    <p><input type="radio" name="room" id="roomname3"><label for="roomname3">aloes101</label></p>
+                </li>
+                <li><label for="roomname4"><img src="./reservation/r-room4.png" alt="룸4"></label>
+                    <p><input type="radio" name="room" id="roomname4"><label for="roomname4">aloes102</label> </p>
+                </li>
+            </ul>
+        </div>
+        <!--reservation2-->
+        <div id="reservation3">
+            <p><img src="./reservation/R-icon3.png" alt="손가락" class="rimg3"></p>
+            <ul>
+                <li><label for="oimg1"><img src="./reservation/Oimg1.png" alt="조식"></label>
+                    <p><input type="checkbox" id="oimg1"><label for="oimg1"> 조식</label></p>
+                </li>
+                <li><label for="oimg2"><img src="./reservation/Oimg2.png" alt="바베큐"></label>
+                    <p><input type="checkbox" id="oimg2"><label for="oimg2"> 바베큐</label></p>
+                </li>
+                <li><label for="oimg3"><img src="./reservation/Oimg3.png" alt="풀장"></label>
+                    <p><input type="checkbox" name="" id="oimg3"><label for="oimg3">풀장</label> </p>
+                </li>
+            </ul>
+            <p class="r3_text">- 오후 10시 이후의 바비큐장 이용 및 고성방가, 스파이용은 타객실 손님을 위하여 금하오니 양해바랍니다. <br> <br>
+                - 바비큐 그릴은 사용요금(4인기준/2만원)이 별도로 청구되오며 <br>
+                기준인원 초과시 인당 5천원의 추가 요금이 있으니 안내실에 문의 후 이용바랍니다. <br> <br>
+                - 바비큐는 화재 및 냄새로 인한 타 손님의 배려 차원에서 지정된 장소에서만 이용 가능합니다.
+                (객실 내 버너는 사용을 금합니다.) <br>​ <br>
+                - 스파 이용시 입욕제, 촛불, 반짝이입욕제, 거품입욕제, 꽃잎은 사용을 금합니다. <br>
+                (해당사항으로 인한 고장시 수리비가 부과될수 있으니 주의바랍니다..)
+            </p>
+        </div>
+        <!--reservation3-->
+        <div id="reservation4" class="clearfix">
+            <p><img src="./reservation/R-icon4.png" alt="카드" class="rimg4"></p>
+            <ul>
+                <li>
+                    <p>
+                        인원 <br>
+                        <select>
+                            <option value="1">1명</option>
+                            <option value="2">2명</option>
+                            <option value="3">3명</option>
+                            <option value="4">4명</option>
+                            <option value="5">5명</option>
+                            <option value="6">6명</option>
+                        </select>
+                    </p>
+
+                </li>
+                <li>
+                    <p>객실 <br>
+                        <select name="" id="">
+                            <option value="1">yuja</option>
+                            <option value="2">tomato</option>
+                            <option value="3">aloes101</option>
+                            <option value="4">aloes102</option>
+                        </select>
+                    </p>
+                </li>
+                <li>
+                    <p>옵션 <br>
+                        <select name="" id="">
+                            <option value="1">조식</option>
+                            <option value="2">바베큐</option>
+                            <option value="3">풀장</option>
+                        </select>
+                    </p>
+                </li>
+                <li>
+                    <p>결제하기 <br><input type="button" value="결제하기"></p>
+
+                </li>
+            </ul>
+            <div class="r_lbox">
+                <p>
+                    ★ 예약시 환불 기준을 숙지하시고 예약하시기 바랍니다. <br> <br>
+
+                    - 입금대기시간이 경과되면 자동으로 예약신청이 취소됩니다. <br>
+                    - 입금시 반드시 예약자명으로 입금해주셔야 확인가능하며, <br>
+                    입금자명이 다를 경우 반드시 펜션으로 연락을 주셔야 합니다. <br>
+                    - 예약상담시간 : am 9시 ~ pm 9시 <br>
+                    - 당일 예약은 출발전 꼭 입금을 하여야 하며, <br>
+                    예약 우선순위는 먼저 입금하시는 분에게 예약 우선이 됩니다.​ <br>
+                    - 전화 : 010-7184-5881
+                </p>
+            </div>
+            <div class="r_rbox">
+                <p>
+                    - 입금 대기 시간 <br>
+                    1) 예약신청 후 2시간 내로 전액을 입금하셔야 예약이 완료 됩니다. <br>
+                    2) 당일 예약 / 하루전 예약시 1시간 내로 결제를 완료 해 주셔야 합니다. <br>
+                    ※ 입금 대기 시간이 경과되면 예약신청이 자동 취소됩니다. <br> <br>
+
+                    - 기준인원 초과금액 <br>
+                    성인(초등학교 이상) 20,000 <br>
+                    아동(24개월 ~ 미취학아동) 10,000 <br>
+                    유아(24개월미만) 0 <br>
+
+
+                </p>
+            </div>
+        </div>
+        <!--reservation4-->
+        <div id="notice">
+            <p><img src="./reservation/notice1.png" alt="노티스"></p>
+            <p class="blue blue1">
+                입실시간 : 15 시 ~ 22 시 (22 시 이후의 입실은 사전에 반드시 연락을 주시기 바랍니다.) </p>
+            <p class="yellow">퇴실시간 : 11 시 (11시 이후 퇴실 시 추가 요금 요구됩니다.)</p>
+            <p class="blue">보호자를 동반하지 않은 미성년자는 어떠한 경우에도 입실하실 수 없습니다. </p>
+            <p class="yellow">AM 11시~PM 3시까지 펜션 청소시간이므로 펜션의 원활한 운영을 위해 입/퇴실 시간을 지켜주시기 바랍니다. </p>
+            <p class="blue">퇴실시간이 촉박한 손님을 위해 특별한 시간 연장 시스템 - 퇴실시간 연장 (11시 -->12시30분) / 20,000원 </p>
+            <p class="yellow">겨울철 테라스 난방기구인 가스히터는 취침, 외출시 꼭 OFF해 주시고 아동이 조작하지 않도록 주의바랍니다.(중간환기 필수) </p>
+            <p class="blue">애완동물은 부득이 타 객실 및 손님을 위해 입실을 금하오니 양해 바랍니다.</p>
+            <p class="yellow">부주의로 인해 일어난 사고, 귀중품(현금포함) 분실 및 파손에 대해서는 펜션에 책임을 물을 수 없습니다. </p>
+            <p class="blue">사용한 쓰레기는 옥외주차장에 분리수거함이 준비가 되어있으니 꼭 분리수거 바랍니다.
+                (일반쓰레기, 음식물쓰레기, 캔, 플라스틱, 병 각각 분리수거)​ </p>
+            <p class="yellow">퇴실시 잊으신 물건이 있는지 확인해주시고, 시설물 및 펜션 소모품은 원위치에 정돈 후 퇴실 부탁드립니다.</p>
+            <p class="blue">이용 후 불편한 부분이 있었다면 말씀해주시면 참고하여 펜션운영에 적극 반영하여 고객불만을 최소로 하겠습니다. </p>
+            <p class="yellow yellow1">객실 정리가 끝나시면 펜션지기에게 연락하시어 퇴실점검을 받으시기 바랍니다.
+            </p>
+        </div>
+        <!--notice-->
+        <div id="refund">
+            <p><img src="./reservation/refund1.png" alt="환불규정"></p>
+            <p class="blue">올바른 예약문화의 정착을 위하여 불가피한 조치이오니 양해 부탁드립니다.</p>
+            <p class="yellow">보호자 동반 없는 미성년자 예약 발견 시 환불 없이 예약 취소됩니다.</p>
+            <p class="blue">예약일 변경시 발생하는 수수료도 취소 수수료가 동일하게 적용되오니 예약시 신중하게 생각하시고 결정해 주시기 바랍니다.</p>
+            <p class="yellow">환불은 입금자 명으로 되며 입금시 송금수수료는 제외한 후 입금됩니다.</p>
+            <p class="blue">예약 당이부터 24시간 까지는 1일전이며, 그 이후부터는 24시간 경과시 1일씩 경과로 계산합니다.</p>
+            <p class="yellow">천재지변으로 인하여 예약취소를 하실 경우에도 환불이 불가능합니다.
+            </p>
+            <p class="blue">코로나 확진으로 취소 시 환불규정에 따라 환불되오니 참조바랍니다.
+            </p>
+            <p class="yellow">아래 환불 규정은 고객님과 펜션의 공정한 계약이므로 동의하신다면 진행하시기 바랍니다.</p>
+            <p class="blue">* 예약 후 기본취소수수료 10% 발생합니다.
+            </p>
+            <p class="yellow">- 기본 환불 수수료</p>
+            <table class="blue">
+                <tr>
+                    <td>이용당일</td>
+                    <td>이용 1일전</td>
+                    <td>이용 2일전</td>
+                    <td>이용 3일전</td>
+                    <td>이용 4일전</td>
+                    <td>이용 5일전</td>
+                    <td>이용 6일전</td>
+                    <td>이용 7일전</td>
+                    <td>이용 8일전</td>
+                    <td>이용 9일전</td>
+                    <td>이용 10일전</td>
+                </tr>
+                <tr>
+                    <td>0% 환불</td>
+                    <td>0% 환불</td>
+                    <td>20% 환불</td>
+                    <td>30% 환불</td>
+                    <td>40% 환불</td>
+                    <td>50% 환불</td>
+                    <td>60% 환불</td>
+                    <td>70% 환불</td>
+                    <td>80% 환불</td>
+                    <td>90% 환불</td>
+                    <td>90% 환불</td>
+                </tr>
+            </table>
+        </div>
+        <!--refund-->
+        <div id="footer">
+            <div class="footer_inner clearfix">
+                <h1><img src="./mgmg_img/f-logo.png" alt="로고"></h1>
+                <div class="left_box ">
+                    <ul class="fnb clearfix">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">청소년보호정책</a></li>
+                        <li><a href="#">광고문의</a></li>
+                    </ul>
+                    <div class="info">
+                        <p>INFO</p>
+                        <P>
+                            주소 경상남도 거제시 동부면 가배3길 <br>업체명 몽글몽글 대표 김별 <br>사업자번호 ***-**-*****
+                        </P>
+                    </div>
+                </div>
+                <!--left_box-->
+                <div class="right_box">
+                    <ul class="sns clearfix">
+                        <li><a href="#"><img src="./mgmg_img/instagram.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="./mgmg_img/twitter.png" alt="트위터"></a></li>
+                        <li><a href="#"><img src="./mgmg_img/facebook.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="./mgmg_img/youtube.png" alt="유튜브"></a></li>
+                    </ul>
+                    <div class="time">
+                        <p>고객센터바로가기 <br>
+                            운영시간 09:00 ~ 18:00 <br>
+                            점심시간 13:00 ~ 14:00</p>
+                    </div>
+                </div>
+                <!--right_box-->
+            </div>
+            <!--footer_inner-->
+        </div>
+        <!--footer-->
+</body>
+
+</html>

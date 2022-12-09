@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'cookie';
+    font-weight: 400;
+    font-style: normal;
+    src: url(./font/CookieRun-Regular.woff) format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cookie';
+    font-weight: 700;
+    font-style: normal;
+    src: url(./font/CookieRun-Bold.woff) format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cookie';
+    font-weight: 900;
+    font-style: normal;
+    src: url(./font/CookieRun-Black.woff) format('woff');
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body {
+    font: 16px 'SCoreDream';
+    line-height: 24px;
+    color: #004059;
+    min-width: 1450px;
+}
+
+/*header*/
+#header {
+    background-color: #b0dbe2;
+    height: 100px;
+}
+
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.logo2 {
+    float: left;
+    padding-top: 8.15px;
+}
+
+.prlg {
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 36px 190px 0px 196px;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+    padding-top: 40.5px;
+}
+
+.prlg li {
+    float: left;
+    padding-left: 36px;
+}
+
+.login li {
+    float: left;
+    padding-right: 16px;
+}
+
+/*mb*/
+.mb {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/*boardgame*/
+#boardgame {
+    background-image: url(./cafe/game-food.png);
+    height: 966px;
+    background-position: center;
+}
+
+.boardgame_inner {
+    margin: 0 auto;
+    width: 1320px;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.boardgame_inner p {
+    padding-bottom: 20px;
+}
+
+/*food*/
+#food {
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#food ul li {
+    float: left;
+}
+
+
+
+.padding {
+    padding-right: 120px;
+}
+
+#food ul li p {
+    padding-bottom: 50px;
+}
+
+/*gamerule*/
+#gamerule {
+    background-image: url(./cafe/gamerule.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1150px;
+    vertical-align: middle;
+}
+
+.gamerule_inner {
+    margin: 0 auto;
+    width: 1320px;
+    padding-top: 250px;
+}
+
+.img_box1,
+.img_box3 {
+    float: left;
+    padding-bottom: 20px;
+}
+
+.img_box2 {
+    float: left;
+    margin: 100px 66px 0;
+}
+
+.img_box1 p,
+.img_box3 p {
+    margin-bottom: 20px;
+}
+
+/*footer*/
+#footer {
+    background-image: url(./mgmg_img/footer_img.png);
+    height: 364px;
+    background-color: #edead1;
+    background-repeat: no-repeat;
+    color: #efedd3;
+    line-height: 30px;
+}
+
+.footer_inner {
+
+    margin: 0 auto;
+    width: 1320px;
+    padding-top: 120px;
+}
+
+.footer_inner h1 {
+    float: left;
+}
+
+.left_box {
+    float: left;
+    padding-left: 55px;
+}
+
+.right_box {
+    float: right;
+}
+
+.fnb li {
+    float: left;
+    padding-right: 30px;
+}
+
+.fnb {
+    padding-bottom: 30px;
+
+}
+
+.sns li {
+    float: left;
+    padding-left: 30px;
+}
+
+.sns {
+    padding-bottom: 30px;
+}
+
+.time p {
+    text-align: right;
+}
