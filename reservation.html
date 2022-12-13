@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1450">
     <title>reservation</title>
     <link rel="stylesheet" href="./reservation.css">
     <link href="https://webfontworld.github.io/SCoreDream/SCoreDream.css" rel="stylesheet">
@@ -13,15 +13,15 @@
 
 <body>
     <div id="header">
-        <div class="header_inner clearfix">
+        <div class="header_inner ">
             <div class="logo2">
-                <img src="./mgmg_img/logo2.png" alt="가로로고">
+                <a href="./index.html"><img src="./mgmg_img/logo2.png" alt="가로로고"></a>
             </div>
             <ul class="prlg clearfix">
-                <li><a href="#">PROLOGUE</a></li>
-                <li><a href="#">ROOMS</a></li>
-                <li><a href="#">RESERVATION</a></li>
-                <li><a href="#">SHOP</a></li>
+                <li><a href="./prologue.html">PROLOGUE</a></li>
+                <li><a href="./room.html">ROOMS</a></li>
+                <li><a href="./reservation.html">RESERVATION</a></li>
+                <li><a href="./cafe.html">CAFE</a></li>
             </ul>
             <ul class="login clearfix">
                 <li><a href="#">로그인</a></li>
@@ -33,8 +33,8 @@
         <div id="reservation1">
             <p><img src="./reservation/R-icon1.png" alt="달력" class="rimg1"></p>
             <div class="l_box">
-                <p><span> CHECK - IN</span><input type="date" name="" id=""></p>
-                <p><span>CHECK - OUT</span><input type="date" name="" id=""></p>
+                <p><span> CHECK - IN</span><input type="date" name="" id="in"></p>
+                <p><span>CHECK - OUT</span><input type="date" name="" id="out"></p>
             </div>
             <div class="r_box">
                 <p>PM 16 : 00</p>
@@ -90,8 +90,8 @@
             <ul>
                 <li>
                     <p>
-                        인원 <br>
-                        <select>
+                        <br> 인원 <br>
+                        <select id="number">
                             <option value="1">1명</option>
                             <option value="2">2명</option>
                             <option value="3">3명</option>
@@ -103,8 +103,8 @@
 
                 </li>
                 <li>
-                    <p>객실 <br>
-                        <select name="" id="">
+                    <p><br> 객실 <br>
+                        <select name="" id="rname">
                             <option value="1">yuja</option>
                             <option value="2">tomato</option>
                             <option value="3">aloes101</option>
@@ -113,8 +113,8 @@
                     </p>
                 </li>
                 <li>
-                    <p>옵션 <br>
-                        <select name="" id="">
+                    <p><br> 옵션 <br>
+                        <select name="" id="option">
                             <option value="1">조식</option>
                             <option value="2">바베큐</option>
                             <option value="3">풀장</option>
@@ -122,7 +122,7 @@
                     </p>
                 </li>
                 <li>
-                    <p>결제하기 <br><input type="button" value="결제하기"></p>
+                    <p><br> 결제하기 <br><input type="button" value="결제하기" id="option2"></p>
 
                 </li>
             </ul>
@@ -222,7 +222,7 @@
         <!--refund-->
         <div id="footer">
             <div class="footer_inner clearfix">
-                <h1><img src="./mgmg_img/f-logo.png" alt="로고"></h1>
+                <h1><a href="./index.html"><img src="./mgmg_img/f-logo.png" alt="로고"></a></h1>
                 <div class="left_box ">
                     <ul class="fnb clearfix">
                         <li><a href="#">회사소개</a></li>

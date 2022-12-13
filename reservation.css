@@ -65,25 +65,25 @@ body {
 .header_inner {
     width: 1320px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 
-.logo2 {
-    float: left;
-    padding-top: 8.15px;
-}
+
 
 .prlg {
-    float: left;
+
     font-size: 20px;
     font-weight: 600;
-    padding: 36px 190px 0px 196px;
-    margin-bottom: 200px;
+
 }
 
 .login {
-    float: right;
+
     font-size: 14px;
-    padding-top: 40.5px;
+
 }
 
 .prlg li {
@@ -105,12 +105,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 200px;
+    margin-top: 150px;
 }
 
 .l_box {
     float: left;
     width: 50%;
-    padding-top: 200px;
+    padding-top: 160px;
     padding-left: 100px;
     box-sizing: border-box;
 }
@@ -118,14 +119,20 @@ body {
 .r_box {
     float: right;
     width: 50%;
-    padding-top: 200px;
+    padding-top: 160px;
     padding-left: 100px;
     box-sizing: border-box;
 }
 
-.l_box p,
-.r_box p {
+.l_box p {
     padding-bottom: 70px;
+    font-size: 30px;
+    font-family: 'cookie';
+
+}
+
+.r_box p {
+    padding-bottom: 103px;
     font-size: 30px;
     font-family: 'cookie';
 
@@ -138,6 +145,26 @@ body {
 .rimg1 {
     padding-left: 110px;
     padding-top: 170px;
+}
+
+#in {
+    border-color: #efedd3;
+    padding: 15px 10px;
+    margin-left: 50px;
+    font-family: 'cookie';
+    font-size: 18px;
+    color: #004059;
+    font-weight: bold;
+}
+
+#out {
+    border-color: #efedd3;
+    padding: 15px 10px;
+    margin-left: 12px;
+    font-family: 'cookie';
+    font-size: 18px;
+    color: #004059;
+    font-weight: bold;
 }
 
 /*reservation2*/
@@ -231,6 +258,8 @@ body {
     padding-top: 50px;
 }
 
+
+
 .r_lbox {
     float: left;
     width: 50%;
@@ -243,6 +272,50 @@ body {
     float: right;
     width: 50%;
     font-weight: 600;
+}
+
+#number {
+    border-color: #efedd3;
+    padding: 15px 10px;
+    font-family: 'cookie';
+    font-size: 18px;
+    color: #004059;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 119px;
+}
+
+#rname {
+    border-color: #efedd3;
+    padding: 15px 10px;
+    font-family: 'cookie';
+    font-size: 18px;
+    color: #004059;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 119px;
+}
+
+#option {
+    border-color: #efedd3;
+    padding: 15px 10px;
+    font-family: 'cookie';
+    font-size: 18px;
+    color: #004059;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 119px;
+}
+
+#option2 {
+    border-color: #efedd3;
+    padding: 15px 10px;
+    font-family: 'cookie';
+    font-size: 18px;
+    color: #004059;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 119px;
 }
 
 /*notice*/
@@ -311,6 +384,7 @@ table {
     background-repeat: no-repeat;
     color: #efedd3;
     line-height: 30px;
+    background-position: center;
 }
 
 .footer_inner {

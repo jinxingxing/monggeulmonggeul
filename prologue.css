@@ -64,24 +64,25 @@ body {
 .header_inner {
     width: 1320px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 
-.logo2 {
-    float: left;
-    padding-top: 8.15px;
-}
+
 
 .prlg {
-    float: left;
+
     font-size: 20px;
     font-weight: 600;
-    padding: 36px 190px 0px 196px;
+
 }
 
 .login {
-    float: right;
+
     font-size: 14px;
-    padding-top: 40.5px;
+
 }
 
 .prlg li {
@@ -100,6 +101,8 @@ body {
     height: 400px;
     width: 100%;
     margin-bottom: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /*brandstory*/
@@ -108,6 +111,8 @@ body {
     height: 1251px;
     width: 100%;
     margin-bottom: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /*bs_inner*/
@@ -248,15 +253,7 @@ body {
 
 
 
-.logo1 {
 
-    padding-right: 30px;
-}
-
-.logo2 {
-
-    padding-right: 30px;
-}
 
 .corol_box {
     margin-bottom: 30px;
@@ -267,6 +264,8 @@ body {
     background-image: url(./prologe/location_bg.png);
     width: 100%;
     height: 1226px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .lo_inner {
@@ -310,6 +309,7 @@ body {
     background-repeat: no-repeat;
     color: #efedd3;
     line-height: 30px;
+    background-position: center;
 }
 
 .footer_inner {

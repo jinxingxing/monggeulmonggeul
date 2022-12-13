@@ -64,24 +64,24 @@ body {
 .header_inner {
     width: 1320px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 
-.logo2 {
-    float: left;
-    padding-top: 8.15px;
-}
 
 .prlg {
-    float: left;
+
     font-size: 20px;
     font-weight: 600;
-    padding: 36px 190px 0px 196px;
+
 }
 
 .login {
-    float: right;
+
     font-size: 14px;
-    padding-top: 40.5px;
+
 }
 
 .prlg li {
@@ -96,9 +96,12 @@ body {
 
 /*mb*/
 .mb {
-    text-align: center;
     width: 100%;
     margin-bottom: 100px;
+    background-image: url(./cafe/cafe-bn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 707px;
 }
 
 /*boardgame*/
@@ -106,6 +109,7 @@ body {
     background-image: url(./cafe/game-food.png);
     height: 966px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .boardgame_inner {
@@ -180,6 +184,7 @@ body {
     background-repeat: no-repeat;
     color: #efedd3;
     line-height: 30px;
+    background-position: center;
 }
 
 .footer_inner {
